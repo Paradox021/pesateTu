@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <h1 class="text-center m-16">Calcula tu IMC</h1>
+    <div class="flex flex-col gap-8 justify-center align-middle">
+      <div class="flex gap-4 justify-center">
+        <div>Estatura:</div>
+        <input class="w-20" type="text" id="estatura">
+        <div>cm</div>
+      </div>
+      <div class="flex gap-4 justify-center">
+        <div>Peso:</div>
+        <input type="range" name="" min="1" max="300" value="80" id="peso">
+        <div id="value">80 kg</div>
+      </div>
+      <div class="flex gap-4 justify-center">
+        <div>Indice de masa corporal:</div>
+        <div id="imc"></div>
+      </div>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
